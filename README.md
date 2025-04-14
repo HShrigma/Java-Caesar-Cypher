@@ -26,7 +26,8 @@ Example with key `+2`:
 
 This implementation does **not** limit the encryption to letters only — it shifts *all* characters, including symbols and punctuation.
 
-Note: Keep in mind, this isn't bug-free, i.e. your encrypted character lands on *DEL*, you're automatically losing it. This could be mitigated by restricting permutations to only [a-z],[A-Z] characters using regex or modulo indexing, but again - this was more of a syntax muscle memory exercise that I decided to publish and less of a solution to any issue. 
+**Note: Keep in mind, this isn't bug-free, i.e. your encrypted character lands on *DEL*, you're automatically losing it. This could be mitigated by restricting permutations to only [a-z],[A-Z] characters using regex or modulo indexing, but again - this was more of a syntax muscle memory exercise that I decided to publish and less of a solution to any real-world issue.** 
+
 ---
 
 ## 🛠️ How to Run
